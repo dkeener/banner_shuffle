@@ -14,7 +14,21 @@
  *   <script src=".../pubs.js"></script>
  */
 
-// Book covers.
+// Featured Banners
+var featured = [
+["https://www.amazon.com/dp/B0BRL5RGC9/",
+    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ad_wefd2_jonelle_crosse_sm-2.png",
+    "Jonelle Crosse"],
+["",
+    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ukraine_supporter-1.jpeg",
+    "We Support Ukraine!"],
+["https://www.ravencon.com",
+    "https://www.davidkeener.org/wp-content/uploads/2024/01/ravencon_2024_david_keener_ad.jpg",
+    "Ravencon, featuring David Keener"]
+];  
+
+
+// Book Covers.
 var pubs = [
     ["https://www.amazon.com/dp/B0C43RDGHN/?tag=keenertech-20",
         "https://www.davidkeener.org/wp-content/uploads/2022/10/bitter_days_th.png",
@@ -45,9 +59,15 @@ var pubs = [
         "The Whispering Voice"]
 ];
 
-// Conventions, conferences, webinars, etc. Same [ linkUrl, imageUrl, altText ]
-// shape as `pubs`, kept as a separate pool so it can be rendered into its
-// own widget independently.
+// Conventions, conferences, webinars, etc. Sometimes a featured ad.
 var events = [
-    // ["https://example.com/some-con", "https://www.davidkeener.org/wp-content/uploads/...png", "Some Con 2026"],
+["https://www.amazon.com/dp/B0BRL5RGC9/",
+    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ad_wefd2_jonelle_crosse_sm-2.png",
+    "Jonelle Crosse"],
+["",
+    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ukraine_supporter-1.jpeg",
+    "We Support Ukraine!"],
+["https://www.ravencon.com",
+    "https://www.davidkeener.org/wp-content/uploads/2024/01/ravencon_2024_david_keener_ad.jpg",
+    "Ravencon, featuring David Keener"]
 ];
