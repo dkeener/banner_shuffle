@@ -69,7 +69,7 @@ To use Banner Shuffle:
 <script>renderPubs('ad-pubs', pubs);</script>
 ```
 
-Renders a randomly selected banner from the "pubs" pool in a <div> element with
+Renders a randomly selected banner from the "pubs" pool in a div element with
 the id of "ad-pubs."
 
 2) A second banner elsewhere on the page, drawing from a *different* pool:
