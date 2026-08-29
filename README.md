@@ -36,7 +36,7 @@ diferent form factors and needed to be separated into different groups.
 
 # How It Works
 
-The capability is dvided into two separate JavScript files:
+The capability is dvided into two separate JavaScript files:
 
 * **pools.js** — Defines the available banner pools.
 * **pubs.js** - Shuffles the banner pool and renders the banner(s).
@@ -48,28 +48,37 @@ this file does.
 
 Each pool is an array of entries shaped like:
 
-[ linkUrl, imageUrl, altText ]
+```
+[ imageUrl, altText ]
+```
 
 Load the two JavaScript files in the following order, typically within the 
 web page header.
 
+```
 <script src=".../pools.js"></script>
 <script src=".../pubs.js"></script>
+```
 
 To use Banner Shuffle:
 
 1) A single-image banner, in any div:
 
+```
 <div id="ad-pubs"></div>
 <script>renderPubs('ad-pubs', pubs);</script>
+```
 
 2) A second banner elsewhere on the page, drawing from a *different* pool:
 
+```
 <div id="ad-events"></div>
 <script>renderPubs('ad-events', events);</script>
+```
 
 3) A multi-image "set" with no duplicates, e.g. 6 covers as 3 rows of 2:
 
+```
 <div id="ad-pubs-grid"></div>
 <script>
    renderPubs('ad-pubs-grid', pubs, {
@@ -79,4 +88,4 @@ To use Banner Shuffle:
    height: 125
    });
 </script>
-
+```
