@@ -49,7 +49,7 @@ this file does.
 Each pool is an array of entries shaped like:
 
 ```
-[ imageUrl, altText ]
+[ linkUrl, imageUrl, altText ]
 ```
 
 Load the two JavaScript files in the following order, typically within the 
@@ -69,6 +69,9 @@ To use Banner Shuffle:
 <script>renderPubs('ad-pubs', pubs);</script>
 ```
 
+Renders a randomly selected banner from the "pubs" pool in a <div> element with
+the id of "ad-pubs."
+
 2) A second banner elsewhere on the page, drawing from a *different* pool:
 
 ```
@@ -76,7 +79,7 @@ To use Banner Shuffle:
 <script>renderPubs('ad-events', events);</script>
 ```
 
-3) A multi-image "set" with no duplicates, e.g. 6 covers as 3 rows of 2:
+3) A multi-image "set" with no duplicates, e.g. 6 book covers as 3 rows of 2:
 
 ```
 <div id="ad-pubs-grid"></div>
