@@ -4,9 +4,9 @@ Banner Shuffle is simple  solution to adding a quick, easy and unobtrusive
 banner rotation capability to a website using two simple JavaScript files. It
 was designed to provide the following capabilities:
 
-* Single-Image Ad: Displays a randomly selected banner from a specified.
+* **Single-Image Ad:** Displays a randomly selected banner from a specified.
 
-* Multi-Image Panel: displays a panel with a specified number of banner images
+* **Multi-Image Panel:** displays a panel with a specified number of banner images
   arranged in rows and columns. The original use case for this feature was
   advertising books, where each image was a book cover.
 
@@ -32,14 +32,14 @@ Specific requirements included:
    images displaying in two columns and three rows.
 
 The pool concept developed because these two types of banners had distinctly
-diferent form factors and need to be defined separately
+diferent form factors and needed to be separated into different groups.
 
 # How It Works
 
 The capability is dvided into two separate JavScript files:
 
-* pools.js — Defines the available banner pools.
-* pubs.js - Shuffles the banner pool and renders the banner(s).
+* **pools.js** — Defines the available banner pools.
+* **pubs.js** - Shuffles the banner pool and renders the banner(s).
 
 pools.js is the file you'll actually edit day-to-day: to add, remove, or
 update entries here as adverising banners come and go. The rendering logic
@@ -50,7 +50,7 @@ Each pool is an array of entries shaped like:
 
 [ linkUrl, imageUrl, altText ]
 
-Load the two JavvaScript files in the following order, typically within the 
+Load the two JavaScript files in the following order, typically within the 
 web page header.
 
 <script src=".../pools.js"></script>
