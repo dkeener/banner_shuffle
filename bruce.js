@@ -1,5 +1,5 @@
 /*
- * pubs.js — random ad banner rendering for davidkeener.org
+ * bruce.js — The "Bruce Banner Shuffler."
  *
  * This file holds the rendering logic only. It doesn't need to change
  * when your image pools change — those live in pools.js, which should
@@ -15,17 +15,17 @@
  * -----
  * 1) A single-image banner, in any div:
  *      <div id="ad-pubs"></div>
- *      <script>renderPubs('ad-pubs', pubs);</script>
+ *      <script>renderBruce('ad-pubs', pubs);</script>
  *
  * 2) A second banner elsewhere on the page, drawing from a *different*
  *    pool:
  *      <div id="ad-events"></div>
- *      <script>renderPubs('ad-events', events);</script>
+ *      <script>renderBruce('ad-events', events);</script>
  *
  * 3) A multi-image "set" with no duplicates, e.g. 6 covers as 3 rows of 2:
  *      <div id="ad-pubs-grid"></div>
  *      <script>
- *        renderPubs('ad-pubs-grid', pubs, {
+ *        renderBruce('ad-pubs-grid', pubs, {
  *          count: 6,
  *          columns: 2,
  *          width: 150,
@@ -68,7 +68,7 @@ function pubLinkHtml(pub, width, height) {
  * @param {number} [options.height=250]  image height in px
  * @param {number} [options.gap=10]      gap between grid images in px
  */
-function renderPubs(containerId, pool, options) {
+function renderBruce(containerId, pool, options) {
     options = options || {};
     var count = options.count || 1;
     var columns = options.columns || count;
