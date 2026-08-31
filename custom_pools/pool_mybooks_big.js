@@ -2,7 +2,7 @@
 
 
 // Big Book Covers (500x800 pixels) - For a Book Feature display.
-var pubs_mybooks_big = [
+var pub_mybooks_big = [
     ["https://www.amazon.com/dp/B0C43RDGHN/?tag=keenertech-20",
         "https://gallery.davidkeener.org/books800/bitter_days.png",
         "Bitter Days"],
