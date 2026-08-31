@@ -14,60 +14,33 @@
  *   <script src=".../pubs.js"></script>
  */
 
-// Featured Banners
-var featured = [
-["https://www.amazon.com/dp/B0BRL5RGC9/",
-    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ad_wefd2_jonelle_crosse_sm-2.png",
-    "Jonelle Crosse"],
-["",
-    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ukraine_supporter-1.jpeg",
-    "We Support Ukraine!"],
-["https://www.ravencon.com",
-    "https://www.davidkeener.org/wp-content/uploads/2024/01/ravencon_2024_david_keener_ad.jpg",
-    "Ravencon, featuring David Keener"]
-];  
-
-
 // Book Covers.
 var pubs = [
     ["https://www.amazon.com/dp/B0C43RDGHN/?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2022/10/bitter_days_th.png",
+        "https://gallery.davidkeener.org/books/bitter_days.png",
         "Bitter Days"],
     ["https://www.amazon.com/dp/B09PF8JLV7/?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2020/03/clash_by_night.png",
+        "https://gallery.davidkeener.org/books/clash_by_night.png",
         "Clash by Night"],
     ["https://www.amazon.com/dp/B0DGWM1T79/?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2023/11/dustbowl_detective_th.png",
+        "https://gallery.davidkeener.org/books/dustbowl_detective.png",
         "Dustbowl Detective"],
     ["https://worldsenough.square.site/product/jakarta-breach-exclusive-edition-/59",
-        "https://www.davidkeener.org/wp-content/uploads/2023/04/jakarta_breach_th.jpg",
+        "https://gallery.davidkeener.org/books/jakarta_breach.jpg",
         "The Jakarta Breach"],
     ["https://www.amazon.com/dp/B0CTNNZSW4/?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2023/08/jonelle_crosse_th.png",
+        "https://gallery.davidkeener.org/books/jonelle_crosse.png",
         "Jonelle Crosse"],
     ["https://www.amazon.com/dp/B09P841FTS/?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2021/12/road_trip.jpg",
+        "https://gallery.davidkeener.org/books/road_trip.jpg",
         "Road Trip"],
     ["https://www.amazon.com/dp/B07JHTFKJY?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2020/03/rooftop_game-2.jpg",
+        "https://gallery.davidkeener.org/books/rooftop_game.jpg",
         "The Rooftop Game"],
     ["https://www.amazon.com/dp/B08XBYV993?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2021/02/an_unlikely_hero_th.png",
+        "https://gallery.davidkeener.org/books/unlikely_hero.png",
         "An Unlikely Hero"],
     ["https://www.amazon.com/dp/B0825F2FC1?tag=keenertech-20",
-        "https://www.davidkeener.org/wp-content/uploads/2020/03/whispering_voice2.png",
+        "https://gallery.davidkeener.org/books/whispering_voice.png",
         "The Whispering Voice"]
-];
-
-// Conventions, conferences, webinars, etc. Sometimes a featured ad.
-var events = [
-["https://www.amazon.com/dp/B0BRL5RGC9/",
-    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ad_wefd2_jonelle_crosse_sm-2.png",
-    "Jonelle Crosse"],
-["",
-    "https://ragnarok.davidkeener.org/wp-content/uploads/2024/10/ukraine_supporter-1.jpeg",
-    "We Support Ukraine!"],
-["https://www.ravencon.com",
-    "https://www.davidkeener.org/wp-content/uploads/2024/01/ravencon_2024_david_keener_ad.jpg",
-    "Ravencon, featuring David Keener"]
 ];
