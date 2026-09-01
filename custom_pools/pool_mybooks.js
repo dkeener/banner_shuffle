@@ -6,7 +6,7 @@
 // - winter_spirits.png
 
 // Small Book Covers (150x250 pixels) - For thumbnails and panel displays.
-var pub_mybooks_big = [
+var pub_mybooks = [
     ["https://www.amazon.com/dp/B0C43RDGHN/?tag=keenertech-20",
         "https://gallery.davidkeener.org/books/bitter_days.png",
         "Bitter Days"],
