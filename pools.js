@@ -1,17 +1,18 @@
 /*
- * pools.js — ad image pools for davidkeener.org
+ * pools.js — An example file with an image pool definition.
  *
  * This is the file you'll actually edit day-to-day: add, remove, or
  * update entries here as books/events come and go. The rendering logic
  * that consumes these pools lives in pubs.js and shouldn't need to
- * change when this file does.
+ * change when this file does. The images are all book covers in the
+ * 150 x 250 size.
  *
  * Each pool is an array of entries shaped like:
  *   [ linkUrl, imageUrl, altText ]
  *
  * Load this file BEFORE pubs.js on the page, e.g.:
  *   <script src=".../pools.js"></script>
- *   <script src=".../pubs.js"></script>
+ *   <script src=".../bruce.js"></script>
  */
 
 // Book Covers.
