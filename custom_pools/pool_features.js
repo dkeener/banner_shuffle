@@ -12,6 +12,9 @@ var pub_features = [
 ["https://www.amazon.com/dp/B0BRL5RGC9/",
     "https://gallery.davidkeener.org/side/fd2_jonelle_crosse.png",
     "Jonelle Crosse"],
+["https://loudoun.libnet.info/event/17052057",
+    "https://gallery.davidkeener.org/side/november_is_for_novels.png",
+    "November is for Novels"],
 ["",
     "https://gallery.davidkeener.org/side/ukraine_supporter.jpg",
     "We Support Ukraine!"]
