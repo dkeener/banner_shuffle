@@ -1,5 +1,12 @@
 // LIB — Book cover images from David Keener's library.
 
+// ark.jpg
+// awakeners_1_northshore.jpg
+// awakeners_2_southshare.jpg
+// choose_your_enemies_carefully.jpg
+// flood.jpg
+// threats_other_promises.jpg
+
 // Book Covers (150 x 250).
 var pub_lib = [
 ["https://www.amazon.com/dp/B00BJ6T7NA/?tag=keenertech-20",
@@ -11,9 +18,18 @@ var pub_lib = [
 ["https://www.amazon.com/dp/B08MLNK1NK/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/agent_of_the_imperium.jpg",
     "Agent of the Imperium"],
+["https://www.amazon.com/dp/B003L784LG/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/ark.jpg",
+    "Ark"],
 ["https://www.amazon.com/dp/B003BNZ9FY/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/arkfall.jpg",
     "Arkfall"],
+["https://www.amazon.com/dp/B00005VHD1/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/awakeners_1_northshore.jpg",
+    "Awakeners 1: Northshore"],
+["https://www.amazon.com/dp/B00005VHD1/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/awakeners_2_southshore.jpg",
+    "Awakeners 2: Southshore"],
 ["https://www.amazon.com/dp/0553116592/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/black_orchid.jpg",
     "Black Orchid"],
@@ -23,6 +39,9 @@ var pub_lib = [
 ["https://www.amazon.com/dp/B000FC1PJ8/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/burglars_cant_be_choosers.jpg",
     "Burglars Can't Be Choosers"],
+["https://www.amazon.com/dp/B01CUVBB7M/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/choose_your_enemies_carefully.jpg",
+    "Choose Your Enemies Carefully"],
 ["https://www.amazon.com/dp/B003L1ZZFK/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/cowboy_fengs.png",
     "Cowboy Feng's Space Bar and Grille"],
@@ -35,6 +54,9 @@ var pub_lib = [
 ["https://www.amazon.com/dp/B000FC29J8/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/fevre_dream.jpg",
     "Fevre Dream"],
+["https://www.amazon.com/dp/B002KS3AIO/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/flood.jpg",
+    "Flood"],
 ["https://www.amazon.com/dp/B013BEE32M/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/forlorn_hope.png",
     "The Forlorn Hope"],
@@ -107,6 +129,9 @@ var pub_lib = [
 ["https://www.amazon.com/dp/B000WCWV6C/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/tanner_on_ice.jpg",
     "Tanner on Ice"],
+["https://www.amazon.com/dp/B0046A9MAE/?tag=keenertech-20",
+    "https://gallery.davidkeener.org/lib/threats_other_problems.jpg",
+    "Threats and Other Promises"],
 ["https://www.amazon.com/dp/B0CS3NX89H/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/times_last_gift.jpg",
     "Time's Last Gift"],
