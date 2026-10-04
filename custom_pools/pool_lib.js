@@ -1,12 +1,5 @@
 // LIB — Book cover images from David Keener's library.
 
-// ark.jpg
-// awakeners_1_northshore.jpg
-// awakeners_2_southshare.jpg
-// choose_your_enemies_carefully.jpg
-// flood.jpg
-// threats_other_promises.jpg
-
 // Book Covers (150 x 250).
 var pub_lib = [
 ["https://www.amazon.com/dp/B00BJ6T7NA/?tag=keenertech-20",
