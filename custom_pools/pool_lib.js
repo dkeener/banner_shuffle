@@ -123,7 +123,7 @@ var pub_lib = [
     "https://gallery.davidkeener.org/lib/tanner_on_ice.jpg",
     "Tanner on Ice"],
 ["https://www.amazon.com/dp/B0046A9MAE/?tag=keenertech-20",
-    "https://gallery.davidkeener.org/lib/threats_other_problems.jpg",
+    "https://gallery.davidkeener.org/lib/threats_other_promises.jpg",
     "Threats and Other Promises"],
 ["https://www.amazon.com/dp/B0CS3NX89H/?tag=keenertech-20",
     "https://gallery.davidkeener.org/lib/times_last_gift.jpg",
